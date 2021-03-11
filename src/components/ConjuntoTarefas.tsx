@@ -28,9 +28,12 @@ const ConjuntoTarefas: React.FC<PropsTarefa> = (props) => {
                     return (
                         <div className={styles.tarefaContainer}>
                             <div className={styles.left}>
-                                <div>Matéria: {tp.materia}</div>
-                                <div>Atividade: {tp.descricao}</div>
-                                <div><span>Local de envio: {tp.local}</span><span className={styles.data}>Data de Entrega: {tp.data}</span></div>
+                                <div><strong>Matéria: </strong>{tp.materia}</div>
+                                <div><strong>Atividade: </strong>{tp.descricao}</div>
+                                <div>
+                                    <span><strong>Local de envio: </strong>{tp.local}</span>
+                                    <span className={styles.data}><div><strong>Data de Entrega: </strong>{tp.data}</div></span>
+                                </div>
                             </div>
                             <div>
                                 <input type="checkbox" id={`cbx ${tp.id}`} className={styles.cbx} />

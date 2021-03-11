@@ -22,16 +22,27 @@
   width: 85vw;
 }
 
-.data {
-  right: 15rem;
-  position: absolute;
-}
-
 .tarefaContainer > div:last-child{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 590px) {
+    .data {
+        right: 15rem;
+        position: absolute;
+    }
+}
+
+@media (max-width: 590px) {
+  .data{
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
 
 .check {
   cursor: pointer;

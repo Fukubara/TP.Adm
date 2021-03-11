@@ -9,3 +9,10 @@
 body{
     background: linear-gradient(105deg, aqua, whitesmoke, whitesmoke);
 }
+
+@media (max-width: 680px) {
+    html{
+        font-size: 87.5%;
+    }
+}
+
