@@ -5,6 +5,7 @@ export default class MyDocument extends Document{
         return(
             <Html>
                 <Head>
+                    <title>TP.Adm</title>
                     <link rel="shortcut icon" href="" type="image/x-icon"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Raleway:wght@400;500&display=swap" 
