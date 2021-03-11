@@ -1,0 +1,9 @@
+- 04/03: LPI Entrada e saída de dados no AVA
+- 04/03: MAT Resolver e enviar por EMAIL
+- 14/03: DESENV. JOGOS Desenvolvel jogo conforme solicitado e mandar no AVA
+- 07/03: FUND SI Teste Aula 02 no AVA
+- 14/03: FUND SI Teste Aula 03 no AVA 
+- 10/03: ARQUITETURA Responder as perguntas e mandar no EMAIL
+- 12/03: ARQUITETURA Responder as perguntas (sistemas Bin. Dec. Etc) e mandar no EMAIL
+- 14/03: ARQUITETURA Responder perguntas e mandar no EMAIL
+- 16/03: ARQUITETURA Responder e mandar por EMAIL (perguntas estão no AVA)
