@@ -12,8 +12,8 @@ Home.getInitialProps = ctx => {
 }
 
 export default function Home( initialChecked: any ) { 
-  const cookieobj = initialChecked.initialChecked
-   
+  let cookieobj = initialChecked.initialChecked
+  
   return (
     <div>
       <Logo />

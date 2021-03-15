@@ -18,6 +18,16 @@ interface PropsTarefa{
 const ConjuntoTarefas: React.FC<PropsTarefa> = (props) => {
     const [Tps, setTps] = useState<Tarefa[]>()
     
+    const checkValue = (tp) => {
+        let check: any
+        if (Object.keys(props.check).length === 0) {
+            check = false
+        } else {
+            check = props.check[tp.id]
+        }
+        return check
+    }
+
     useEffect(() => {
         setTps(props.tarefa)
     }, [])
@@ -27,7 +37,7 @@ const ConjuntoTarefas: React.FC<PropsTarefa> = (props) => {
             {
                 Tps?.map((tp) => {
                     return (
-                        <Tarefa key={tp.id} check={props.check[tp.id]} objtp={tp} />
+                        <Tarefa key={tp.id} check={checkValue(tp)} objtp={tp} />
                     )
                 })
             }
