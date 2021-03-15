@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import cookie from 'next-cookies'
 
 import styles from '../styles/BlocoTarefa.module.css'
 
@@ -8,7 +7,7 @@ const Tarefa = (props: any) => {
     const [Checked, setChecked] = useState(JSON.parse(props.check))
 
     useEffect(() => {
-        document.cookie = `${props.objtp.id}=${Checked}; path='/' `
+        document.cookie = ` ${props.objtp.id}=${Checked}; path='/' `
     }, [Checked])
 
     return (
